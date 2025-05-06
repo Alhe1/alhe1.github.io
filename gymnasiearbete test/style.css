@@ -1,0 +1,119 @@
+/* Grundläggande stil för hela sidan */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Huvud container för att centrera innehåll */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #1f1f1f;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* Introduktionssektion */
+.intro {
+  background-color: #181818;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+/* Spelsektion */
+.games {
+  background-color: #1f1f1f;
+  padding: 40px 0;
+}
+
+.games h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game-card {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px;
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.game-card h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.game-card p {
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #181818;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
